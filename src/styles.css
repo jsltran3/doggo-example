@@ -1,0 +1,24 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.movielist {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+.card {
+  border: 1px solid #f2f2f2;
+  border-radius: 5px;
+  text-align: left;
+}
+.card__title {
+  background: #ccc;
+  margin: 0;
+  padding: 0.5rem 0 0.5rem 1rem;
+}
+.card__content {
+  padding: 0 0 1rem 1rem;
+}
